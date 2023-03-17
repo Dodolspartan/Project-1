@@ -468,9 +468,11 @@ footer{
         padding: 30px 0px 30px 0px;
        
     }
+   .enterprise .cards_bx .col{
+    margin:50px
+    }
     .enterprise .cards_bx .col .card{
-        padding: 0px 20px 20px 20px ;
-        margin: 0px 20px 0px 20px; 
+        margin-bottom:20px
     }
     /*Responsive footer */
     .container-fluid{
