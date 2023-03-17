@@ -465,7 +465,7 @@ footer{
     }
     /*Responsive enterprise */
     .enterprise{
-        padding: 30px 0px 30px 0px;
+        padding: 30px 20px 30px 50px;
     }
     .enterprise .cards_bx .col .card{
         margin: 0px 20px 20px 20px ;
