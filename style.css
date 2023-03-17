@@ -430,6 +430,9 @@ footer{
         margin-top: 20px;
         width: 300px;
     }
+   .connect .col .text_servic h1{
+    font-size:20px;
+    }
     .connect .col .text_servic p{
         font-size: 14px;
 
