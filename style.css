@@ -469,7 +469,7 @@ footer{
        
     }
     .enterprise .cards_bx .col .card{
-        padding: 0px 20px 20px 20px ;
+        padding: 0px 20px 20px -30px ;
     }
     /*Responsive footer */
     .container-fluid{
