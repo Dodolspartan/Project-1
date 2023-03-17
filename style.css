@@ -524,4 +524,12 @@ footer{
     .service .corl_box{
         margin: 30px;
     }
+   /*Responsive enterprise */
+    .enterprise{
+        padding: 30px 0px 30px 0px;
+        margin: 30px 0px 30px 0px;
+    }
+    .enterprise .cards_bx .col .card{
+        margin-left: -60px;
+    }
 }
