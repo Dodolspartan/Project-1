@@ -17,17 +17,19 @@
 
 <!--Section Navbar-->   
 <header class="header">
-    <a href="" class="logo"><img src="Frame 293.png" width="100" alt=""></a>
-    <nav class="navbar">
-        <a href="">Produk</a>
-        <a href="">Service</a>
-        <a href="">About</a>
-    </nav>
+  <a href="" class="logo"><img src="Frame 293.png" width="50" alt=""></a>
+  <nav class="navbar">
+      <a href="">Home</a>
+      <a href="">Product</a>
+      <a href="">Services</a>
+      <a href="">Feedback</a>
+      <a href="" class="btn_lg">Login</a>
+  </nav>
 
-    <div class="icons">
-        <div class="fas fa-bars" id="menu-btn"></div>
-        <a href="" class="btn_l">Login</a>
-    </div>
+  <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <a href="" class="btn_l">Login</a>
+  </div>
 </header>
 <!--Section Navbar End-->
 
@@ -336,7 +338,11 @@
 </div>
 
 <script>
+  let navBar = document.querySelector('.navbar');
 
+document.querySelector('#menu-btn').onclick = () =>{
+    navBar.classList.toggle('active');
+}
 </script>
 
  <!--Js-->
