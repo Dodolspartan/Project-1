@@ -299,6 +299,9 @@ footer{
     #menu-btn{
         display: inline-block;
     }
+   .header{
+      width:70%;
+   }
     .header .navbar.active{
         right: 0rem;
         transition: .5s linear;
@@ -487,6 +490,9 @@ footer{
 }
 @media (max-width:450px){
     /*Responsive header */
+   .header{
+      width:70%;
+   }
     .head .btn_2{
         margin:12px;
         margin-top: 20px;
