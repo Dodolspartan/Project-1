@@ -445,7 +445,7 @@ footer{
         padding: 0;
     }
     .blog .blog_box .col .card{
-        margin: 30px;
+        margin: 60px;
     }
     /*Responsive company */
     .company{
@@ -461,7 +461,7 @@ footer{
         padding: 50px 50px 20px 50px;
     }
     .company form .btn_company{
-        margin: 20px 0px 10px 60px;
+        margin: 20px 0px 10px 65px;
     }
     /*Responsive enterprise */
     .enterprise{
