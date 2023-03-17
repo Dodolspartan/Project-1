@@ -304,7 +304,8 @@ footer{
 /*Responsive Mobile Frendly */
 @media (max-width:760px) {
    body{
-      width:70%;
+      margin:0;
+      padding:0;
    }
     .header{
         width: 70%;
@@ -498,7 +499,8 @@ footer{
 @media (max-width:450px){
     /*Responsive header */
     body{
-      width:70%;
+     margin:0;
+     padding:0;  
    }
    .header{
         width: 70%;
