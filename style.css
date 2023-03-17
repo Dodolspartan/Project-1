@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Poppins:ital,wght@0,100;1,100;1,200;1,600&family=Roboto+Condensed:wght@300;400&display=swap');
+
+*{
+   font-family: 'Montserrat', sans-serif;
+   margin: 0; padding: 0;
+   box-sizing: border-box;
+   outline: none; border: none;
+}
+
+.header{
+   position: fixed;
+   top: 0; left: 0; right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.7rem 5%;
+   background: #0A2640;
+}
+.header .logo img{
+   font-size: 0.5rem;
+   font-weight: bolder;
+   color: black;
+}
+.header .logo svg{
+   font-size: 2.5rem;
+   color: #e0d211;
+}
+.header .navbar a{
+   font-size: 16px;
+   margin: 0 1.5rem;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+.btn_l{
+    background: #69E6A6;
+    text-decoration: none;
+    padding: 8px 40px 8px 40px;
+    border-radius: 24px;
+    font-weight: 500;
+    color: #0A2640;
+}
+.btn_l:hover{
+    color: #0A2640;
+}
+#menu-btn{
+    display: none;
+}
+/* Section Head */
+.head{
+    background: #0A2640;
+    min-height: 665px;
+    align-items: center;
+}
+.head .text-head{
+    padding-top: 250px;
+}
+.head .text-head h1{
+    color: white;
+}
+.head .text-head p{
+    color: #F1F1F1;
+    padding-top: 16px;
+    font-weight: 400;
+}
+.head .gab_head{
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 140px;
+}
+.head .row .col-6{
+    margin-top: 40px;
+}
+.head .row .col-4{
+    margin-top: 40px;
+}
+.head .btn_2{
+    margin-top: 40px;
+    color: #0A2640;
+    line-height: 28px;
+    font-size: 20px;
+    text-decoration: none;
+    padding:16px 56px 16px 56px;
+    border-radius: 56px;
+    background: #69E6A6;
+    font-weight: 700;
+}
+.head .btn_3{
+    margin-top: 40px;
+    color: #fff;
+    line-height: 28px;
+    font-size: 20px;
+    text-decoration: none;
+    padding:16px 56px 16px 56px;
+    border-radius: 56px;
+    border: 1px solid #fff;
+    font-weight: 700;
+}
+/* Section Service */
+.service{
+    margin-top: 40px;
+}
+.service .text-card p{
+    font-size: 20px;
+    line-height: 32px;
+}
+.service .text-card h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
+.service .corl_box{
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+.card-body a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0A2640;
+    font-weight: 600;
+    border-bottom: 1px solid #0A2640;
+}
+/* Section Costumer Service */
+.cs_servic{
+    flex-wrap: wrap;
+    margin-top: 185px;
+    margin-right: 110px;
+    margin-left: 110px;
+}
+.cs_servic .col .ast_gb img{
+    position: absolute;
+    width: 394px;
+    height: 430;
+}
+.cs_servic .col .text_servic h1{
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    line-height: 56px;
+}
+/* Section Costumer Connect */
+.connect{
+    margin-top: 150px;
+    margin-right: 110px;
+    margin-left: 110px;
+}
+.connect .col .text_servic h1{
+    margin-top: 70px;
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    line-height: 56px;
+}
+.connect .col .text_servic p{
+    background: #fff;
+    color: #0A2640;
+    padding: 10px 5px 10px 12px;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.connect .col .text_servic p:hover{
+    background: #0A2640;
+    color: #fff;
+    padding: 10px 5px 10px 12px;
+}
+.connect .col .ast_cn img{
+    margin-left: 60px;
+    position: absolute;
+    width: 394px;
+    height: 430;
+}
+/* Section enterprise */
+.enterprise{
+    
+    margin-top: 185px;
+    background: #0A2640;
+    min-height: 550px;
+    margin-bottom: 120px;
+}
+.enterprise .tex_enterprise h1{
+    margin-left: 70px;
+    padding-top: 70px;
+    color: #fff;
+}
+.enterprise .cards_bx{
+    margin: 80px 30px 50px 70px;
+}
+
+/* Section them*/
+.them{
+    margin-top: 185px;
+    margin-bottom: 185px;
+}
+.them .gab_them{
+    margin-bottom: 56px;
+}
+.them .text_them h1{
+    font-size: 36px;
+}
+/* Section blog*/
+.blog{
+    margin: 0px 110px 0px 110px;
+}
+.blog .blog_box{
+    margin-top: 80px;
+}
+.blog .readmore{
+    margin-top: 50px;
+    margin-bottom: 124px;
+}
+.blog .readmore a{
+    border: 2px solid #0A2640;
+    padding: 16px 56px 16px 56px;
+    text-decoration: none;
+    border-radius: 56px;
+    color: #0A2640;
+    font-weight: 600;
+}
+/* Secion Company*/
+.company{
+    background: #0A2640;
+    height: 350px;
+    margin: 100px;
+    border-radius: 12px;
+    padding: 72px 120px 180px 120px;
+}
+.company form{
+    padding: 40px 150px 0px 120px;
+}
+.company .row .btn_company{
+    padding: 10px 36px;
+    background: #69E6A6;
+    color: #0A2640;
+    font-weight: 600;
+
+}
+/* Secion footer*/
+.container-fluid{
+    margin-top: 101px;
+    color:#000 !important;
+}
+
+.container-fluid .row .log_ft{
+    display: flex;
+    margin: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 60px;
+    gap: 30px;
+}
+
+.container-fluid .row .list-unstyled .mt-md-3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0A2640;
+}
+.fa{
+    cursor: pointer;
+    font-size: 21px ;
+    margin: 5px 10px 5px 10px !important;
+}
+
+
+
+ li{
+     margin-top: 10px ;
+     margin-bottom: 10px ;
+ }
+
+
+
+ li:first-child {
+    font-size:  20px;
+    font-weight: bold;
+    margin-bottom: calc(40px + (48 - 40) * ((100vw - 360px) / (1600 - 360))) !important;
+    color:000000 !important;
+ 
+}
+
+footer{ 
+    color:#757575 !important;
+}
+
+.social{
+    position: relative;
+    left: -10px;
+}
+
+.cursor-pointer{
+    cursor: pointer !important;
+    color:green;
+    font-weight: bold;
+}
+.hir_jb{
+    background: #69E6A6;
+    font-weight: 500;
+    font-size: 12px;
+    color: #0A2640;
+    padding: 3px 7px 3px 7px;
+    border-radius: 5px;
+}
+/*Responsive Mobile Frendly */
+@media (max-width:760px) {
+    #menu-btn{
+        display: inline-block;
+        color: #fff;
+        font-size: 15px;
+    }
+    .header .navbar.active{
+        right: 0rem;
+        transition: .5s linear;
+    }
+    .header .navbar{
+        position:absolute;
+        top: 100%; right: -110rem;
+        width: 13rem;
+        height: 100vh;
+        background: #ffffff;
+        box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.05);
+    }
+    .header .navbar a{
+        font-size: 1rem;
+        padding: 7px;
+        margin: 7px ;
+        display: block;
+    }
+    .header .icons a{
+        display: none;
+    }
+    /*Responsive Head */
+    .head .text-head h1{
+        margin: 20px;
+        margin-top: -100px;
+        font-size: 30px;
+    }
+    .head .text-head p{
+        margin: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .head .btn_2{
+        margin:12px;
+        margin-top: 20px;
+        color: #0A2640;
+        line-height: 28px;
+        font-size: 12px;
+        text-decoration: none;
+        padding:12px 30px 16px 30px;
+        border-radius: 56px;
+        background: #69E6A6;
+        font-weight: 600;
+    }
+    .head .btn_3{
+        margin-top: 20px;
+        color: #fff;
+        line-height: 28px;
+        font-size: 15px;
+        text-decoration: none;
+        padding:12px 36px 16px 36px;
+        border-radius: 56px;
+        border: 1px solid #fff;
+        font-weight: 700;
+    }
+    .head .col .gab_head img{
+        width: 350px;
+        margin: -50px 10px 20px -40px;
+    }
+    /*Responsive Service */
+    .service{
+        margin-top: 80px;
+    }
+    .service .text-card h1{
+        font-size: 25px;
+        line-height: 30px;
+        margin: 20px;
+
+    }
+    .service .corl_box{
+        margin: 50px;
+    }
+    .service .corl_box .col .card{
+        margin-bottom: 30px;
+    }
+    /*Responsive service */
+    .cs_servic{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 120px;
+    }
+    .cs_servic .ast_gb{
+        width: 350px;
+        margin: 0px 0px 10px 12px;
+    }
+    .cs_servic .col .text_servic{
+        padding: 0px 0px 0px 10px;
+    }
+    .cs_servic .col .text_servic h1{
+        font-size: 20px;
+        padding: 0;
+        margin: 10px;
+        margin-top: 450px;
+        line-height: 30px;
+        padding: 0px 0px 10px 0px;
+    }
+    .cs_servic .col .ast_gb img{
+        width: 340px;
+    }
+    /*Responsive them */
+    .them{
+        flex-wrap: wrap;
+        grid-template-columns: repeat(auto fit, minmax(300px, 1fr));
+    }
+    .them .gab_them img{
+        width: 100%;
+    }
+    .them .col .text_them h1{
+        font-size: 30px;
+        margin: 20px;
+    } 
+    /*Responsive connect*/
+    .connect{
+    margin-top: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+    }
+    .connect .col .gab_head img{
+        margin-top: 20px;
+        width: 330px;
+    }
+    .connect .col .text_servic p{
+        font-size: 14px;
+
+    }
+    /*Responsive Blog */
+    .blog{
+        padding: 0;
+        margin: 0;
+    }
+    .blog .text-card h1{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .blog .blog_box .col .card{
+        margin: 40px;
+    }
+    /*Responsive company */
+    .company{
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    .company .text_company h1{
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    .company form{
+        padding: 50px 50px 20px 50px;
+    }
+    .company form .btn_company{
+        margin: 20px 0px 10px 50px;
+    }
+    /*Responsive enterprise */
+    .enterprise{
+        padding: 30px 0px 30px 0px;
+        margin: 30px 0px 30px 0px;
+    }
+    .enterprise .cards_bx .col .card{
+        margin: 0px 50px 20px -20px ;
+    }
+    /*Responsive footer */
+    .container-fluid{
+        padding: 0;
+        margin: 0;
+    }
+    .container-fluid .row .log_ft{
+        margin: 0px 0px 0px -50px;
+        display: block;
+    }
+    .hir_jb{
+        background: #69E6A6;
+        font-weight: 500;
+        color: #0A2640;
+        padding: 4px 10px 4px 10px;
+        border-radius: 7px;
+    }
+}
