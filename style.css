@@ -372,7 +372,7 @@ footer{
         font-weight: 700;
     }
     .head .col .gab_head img{
-        width: 350px;
+        width: 300px;
         margin: -50px 10px 20px -40px;
     }
     /*Responsive Service */
@@ -413,7 +413,7 @@ footer{
         padding: 0px 0px 10px 0px;
     }
     .cs_servic .col .ast_gb img{
-        width: 340px;
+        width: 300px;
     }
     /*Responsive them */
     .them{
@@ -435,7 +435,7 @@ footer{
     }
     .connect .col .gab_head img{
         margin-top: 20px;
-        width: 330px;
+        width: 300px;
     }
     .connect .col .text_servic p{
         font-size: 14px;
