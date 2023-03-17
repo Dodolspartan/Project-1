@@ -303,6 +303,9 @@ footer{
 }
 /*Responsive Mobile Frendly */
 @media (max-width:760px) {
+    .header{
+        width: auto;
+    }
     #menu-btn{
         display: inline-block;
         color: #fff;
@@ -485,5 +488,39 @@ footer{
         color: #0A2640;
         padding: 4px 10px 4px 10px;
         border-radius: 7px;
+    }
+}
+@media (max-width:450px){
+    /*Responsive header */
+    .head .btn_2{
+        margin:12px;
+        margin-top: 20px;
+        color: #0A2640;
+        line-height: 28px;
+        font-size: 11px;
+        text-decoration: none;
+        padding:12px 25px 16px 25px;
+        border-radius: 56px;
+        background: #69E6A6;
+        font-weight: 600;
+    }
+    .head .btn_3{
+        margin-top: 20px;
+        color: #fff;
+        line-height: 28px;
+        font-size: 11px;
+        text-decoration: none;
+        padding:12px 25px 16px 25px;
+        border-radius: 56px;
+        border: 1px solid #fff;
+        font-weight: 700;
+    }
+    .head .col .gab_head img{
+        width: 315px;
+        margin: -50px 10px 20px -40px;
+    }
+    /*Responsive service */
+    .service .corl_box{
+        margin: 30px;
     }
 }
