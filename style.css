@@ -397,6 +397,9 @@ footer{
     .cs_servic .col .text_servic{
         padding: 0px 0px 0px 10px;
     }
+   .cs_servic .col .text_servic p{
+    font-size:13px;
+    }
     .cs_servic .col .text_servic h1{
         font-size: 20px;
         padding: 0;
@@ -435,7 +438,7 @@ footer{
        line-height: 30px;
     }
     .connect .col .text_servic p{
-        font-size: 14px;
+        font-size: 13px;
 
     }
     /*Responsive Blog */
