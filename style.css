@@ -259,11 +259,6 @@
     font-size: 21px ;
     margin: 5px 10px 5px 10px !important;
 }
-
-
-
-
-
  li:first-child {
     font-size:  20px;
     font-weight: bold;
@@ -420,7 +415,7 @@ footer{
         width: 100%;
     }
     .them .col .text_them h1{
-        font-size: 30px;
+        font-size: 20px;
         margin: 20px;
     } 
     /*Responsive connect*/
